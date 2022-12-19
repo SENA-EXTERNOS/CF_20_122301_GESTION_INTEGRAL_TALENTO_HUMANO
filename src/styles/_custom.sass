@@ -121,6 +121,12 @@
   top: 0rem
   right: 0%
   width: 100%
+
+.flotante-movil
+  @media screen and ( max-width: 500px )
+    width: 60% !important
+    left: 20%  
+      
 //-------------------------------------------------- 
 
 //background para temas  
@@ -286,7 +292,7 @@
 .colorTab
   background-color: #fef7dc
 .tabs-a__content-item
-  margin-left: 120px;
+  margin-left: 135px;
   width: 400px;
   @media ( max-width: 500px )
     margin-left: 0
@@ -321,14 +327,14 @@
     width: 35%
     top: 25px
   * p
-    margin-top: -25%
+    margin-top: -25% 
     margin-bottom: 0px     
   @media ( max-width: 500px )
     width: 80%
     height: 100%
     left: 10%
     * p
-      margin-top: 20px
+      margin-top: 20px !important
       margin-bottom: 0px   
 
 .t3.tarjeta-avatar
@@ -338,7 +344,7 @@
     width: 35%
     top: 25px
   * p
-    margin-top: -25%
+    margin-top: 25% !important
     margin-bottom: 0px     
   @media ( max-width: 500px )
     width: 100%
@@ -453,7 +459,7 @@
   position: relative
   width: 65%
   @media screen and ( max-width: 500px )  
-    height: 340px
+    height: 270px
     right: 0
     position: relative
     width: 100%
@@ -461,7 +467,7 @@
 .b1.bloque-texto-g__texto
   height: 250px  
   @media screen and ( max-width: 500px )
-    height: 390px
+    height: 310px
     right: 0
     position: relative
     width: 100%
@@ -487,4 +493,19 @@
     height: 410px
     right: 0
     position: relative
-    width: 100%     
+    width: 100%    
+
+.b4.bloque-texto-g__img
+  width: 55%;
+  left: 50%;
+  @media screen and ( max-width: 500px )
+    width: 100%
+    left: 0  
+
+.b4.bloque-texto-g__texto
+  height: 270px  
+  @media screen and ( max-width: 500px )
+    height: 330px
+    right: 0
+    position: relative
+    width: 100%      

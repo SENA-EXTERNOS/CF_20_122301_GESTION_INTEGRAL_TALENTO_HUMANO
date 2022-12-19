@@ -89,8 +89,8 @@
                 p Este tipo de datos no tienen naturaleza íntima, reservada, ni pública y su conocimiento solo interesa al titular y a cierto sector o grupo de individuos o a la sociedad en general; se refiere a datos financieros y crediticios, dirección, teléfono, correo electrónico.                  
 
       .row.justify-content-center.mt-5
-        .col-lg-2(data-aos="flip-left").mb-5
-          img(src='@/assets/curso/temas/tema2/t2-4.svg', alt='').animacion-flotante
+        .col-lg-2.col-sm-9(data-aos="flip-left").mb-5
+          img(src='@/assets/curso/temas/tema2/t2-4.svg', alt='').animacion-flotante.flotante-movil
         .col-lg-10
           p Ahora, la fuente más grande de datos es la que tiene su origen en la red y forman parte, de acuerdo con los estudiosos, del pedazo más grande del pastel llamado #[i Big data] que es una de las fuentes de datos más conocida y usada en esta era tecnológica.
 
@@ -140,25 +140,25 @@
             .t2.tarjeta-avatar
               img(src='@/assets/curso/temas/tema2/t2-6.svg' alt='AvatarTop')
               .tarjeta.tarjeta--amarilla-1.p-5
-                p.text-center La selección de los datos.
+                p.text-center.mt-2 La selección de los datos.
           
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
             .t2.tarjeta-avatar
               img(src='@/assets/curso/temas/tema2/t2-7.svg' alt='AvatarTop')
               .tarjeta.tarjeta--amarilla-1.p-5
-                p.text-center Crear la estrategia de limpieza de datos.
+                p.text-center.mt-2 Crear la estrategia de limpieza de datos.
           
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
             .t2.tarjeta-avatar
               img(src='@/assets/curso/temas/tema2/t2-8.svg' alt='AvatarTop')
               .tarjeta.tarjeta--amarilla-1.p-5
-                p.text-center Completar los datos.
+                p.text-center.mt-2 Completar los datos.
 
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
             .t2.tarjeta-avatar
               img(src='@/assets/curso/temas/tema2/t2-9.svg' alt='AvatarTop')
               .tarjeta.tarjeta--amarilla-1.p-5
-                p.text-center.mb-0 Integración de los datos.     
+                p.text-center.mb-0.mt-1 Integración de los datos.     
                 p.text-center.mt-0 Es primordial que todos manejen el mismo tipo de formato.           
 
     .row.justify-content-center.mt-3

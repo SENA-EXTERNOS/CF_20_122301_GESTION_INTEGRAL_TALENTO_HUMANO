@@ -9,7 +9,7 @@
 
     .row.justify-content-center.mt-5
       .col-lg-2(data-aos="flip-left").mb-5
-        img(src='@/assets/curso/temas/tema4/t4-1.svg', alt='').animacion-flotante
+        img(src='@/assets/curso/temas/tema4/t4-1.svg', alt='').animacion-flotante.flotante-movil
       .col-lg-10
         p Las licencias de #[i software] se refieren a un contrato entre el autor de un #[i software] informático y sus usuarios.  En las licencias se disponen los términos, condiciones y cláusulas que se tienen que cumplir para poder utilizar ese #[i software] y cada usuario que descarga, instala, copia o lo utiliza, debe aceptar esos términos.
 
@@ -38,7 +38,7 @@
             .b2.bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/t4-4.svg')})`}"
             )
-            .b3.bloque-texto-g__texto.p-4
+            .b4.bloque-texto-g__texto.p-4
               p.mb-0 También, aparte de estos dos tipos de licencias, se cuenta con el #[i software] gratuito o de dominio público, que no tiene #[i copyright] y se puede utilizar, aunque el autor puede poner restricciones para redistribuir el programa y los trabajos que se deriven de él. En otro orden de ideas, existe la licencia de software semi libre, es decir, que tiene propietario, pero el programa viene con autorización para usar, copiar, distribuir y modificar si se es un particular y se carece de ánimo de lucro.
         p.mt-4 Cuando se adquiere un programa, sin importar el tipo de licencia, lo que se consigue es una licencia de uso, nunca el programa en sí y, como regla general, se da una licencia por cada lugar de uso o dispositivo.
 
@@ -49,7 +49,7 @@
 
       .row.justify-content-center.mt-5
         .col-lg-2(data-aos="flip-left").mb-5
-          img(src='@/assets/curso/temas/tema4/t4-5.svg', alt='').animacion-flotante
+          img(src='@/assets/curso/temas/tema4/t4-5.svg', alt='').animacion-flotante.flotante-movil
         .col-lg-10
           p Las licencias de #[i software] libre permiten: ejecutar el programa y aprender su funcionamiento, adaptarlo a las necesidades de cada usuario, copiarlo y redistribuirlo y perfeccionarlo y exponer esas mejoras al alcance y servicio de toda la comunidad. 
 
@@ -73,7 +73,7 @@
 
       .row.justify-content-center.mt-5
         .col-lg-2(data-aos="flip-left").mb-5
-          img(src='@/assets/curso/temas/tema4/t4-7.svg', alt='').animacion-flotante
+          img(src='@/assets/curso/temas/tema4/t4-7.svg', alt='').animacion-flotante.flotante-movil
         .col-lg-10
           p Este modelo de #[i software] acorta las posibilidades del usuario para modificarlo. Aún así, el #[i software] libre, es el que se distribuye libremente. También se conoce como #[i software] de código abierto.
 
@@ -103,7 +103,7 @@
 
     .row.justify-content-center.mt-5
       .col-lg-2(data-aos="flip-left").mb-5
-        img(src='@/assets/curso/temas/tema4/t4-8.svg', alt='').animacion-flotante
+        img(src='@/assets/curso/temas/tema4/t4-8.svg', alt='').animacion-flotante.flotante-movil
       .col-lg-10
         p La licencia comercial es un modelo estándar de licencia para empresas y entidades comerciales. Las organizaciones compran las licencias y cualquier individuo de la empresa puede utilizarlas. La licencia personal es una opción para personas naturales que compran una licencia por sus propios medios y para uso propio.
 

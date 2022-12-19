@@ -20,10 +20,10 @@
     .row.justify-content-center.mt-3
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .b2.bloque-texto-g__img(
+          .b4.bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/t3-2.svg')})`}"
           )
-          .b2.bloque-texto-g__texto.p-4
+          .b4.bloque-texto-g__texto.p-4
             p.mb-0 La implementación de herramientas tecnológicas, puede contribuir a las organizaciones a incrementar la productividad de sus negocios, perfeccionando la efectividad de sus procesos y ubicando la compañía en un estado de innovación permanente, capaz de ajustarse a las necesidades de los clientes y posicionarse en un mercado más amplio y competitivo a un futuro cercano. Para lograr la una transformación digital y aceptación positiva en la nueva situación, los directivos tienen que estar expectantes a los adelantos tecnológicos que nos ofrece el mercado.
 
     .row.justify-content-center.mt-5(data-aos="zoom-in")
